@@ -32,7 +32,7 @@ function App() {
   } = useBlueDollarRate()
 
   const usdToCopValue = usdToCop?.usd['cop'];
-  const usdToArsValue = usdToArs?.compra;
+  const usdToArsValue = usdToArs?.venta;
 
 
   const isUpdating = isFetchingCop || isFetchingArs
