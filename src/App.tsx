@@ -93,7 +93,7 @@ function App() {
                 </div>
               ) : (
                 <p className="text-sm font-medium text-purple-800">
-                  1 USD = {`${usdToArs?.compra}`} ARS
+                  1 USD = {`${usdToArs?.venta}`} ARS
                 </p>
               )}
             </div>
